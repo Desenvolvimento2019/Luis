@@ -1,3 +1,78 @@
-.limpa{
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td 
+
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+.container {
+	width: calc(100% - 30px);
+	max-width: 1024px;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.limpa
+{
 	clear: both;
+}
+.logo
+{
+	background-color: red;
+	height: 200px;
+	width: 100px;
+	float: left;
+}
+.primeiro_menu
+{
+	background-color: blue;
+	height: 50px;
+	width: 600px;
+	float: left;
+}
+.redes_links
+{
+	background-color: green;
+	height: 10px;
+	width: 
+	float: left;
+}
+.sub_menu
+{
+	background-color: orange;
+	height: 50px;
+}
+.login
+{
+	background-color: grey;
+	height: 50px;
+}
+.banner
+{
+	background-color: violet; 
+	height: 300px;
+}
+.banner2
+{
+	background-color: yellow;
+	height: 300px;
+}
+.banner3
+{
+	background-color: brown;
+	height: 300px;
 }

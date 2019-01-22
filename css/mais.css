@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td 
+
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+.container {
+	width: calc(100% - 30px);
+	max-width: 1024px;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.limpa
+{
+	clear: both;
+}
+.logo
+{
+	background-color: white;
+	height: 100px;
+	width: 50%;
+	float: left;
+}
+.logo img
+{
+	text-align: left;
+	margin: auto;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.primeiro_menu
+{
+	background-color: white;
+	height: 100px;
+	width: 50%;
+	float: left;
+}
+.primeiro_menu ul li
+{
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 15px;
+}
+.primeiro_menu ul li a
+{
+	background: #f1f1f1;
+    padding: 3px;
+    margin-right: 1px;
+    color: #de3232;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.sub_menu
+{
+	background-color: black;
+	width: 100%;
+	height: 100px;
+}
+.sub_menu .menucentral
+{
+	margin: auto;
+	height: 100px;
+	width: 50%;
+}
+.sub_menu .menucentral ul li
+{
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 15px;
+}
+.sub_menu .menucentral ul li a
+{
+	background: #f1f1f1;
+    padding: 3px;
+    margin-right: 1px;
+    color: #de3232;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.sub_menu .menucentral ul li a img
+{
+	color: none;
+	background: blue;
+}
+.banner
+{
+	background-color: violet;
+	width: 100%; 
+	height: 500px;
+
+}
+.banner img
+{
+	width: 100%; 
+	height: 100%;
+	overflow: visible;
+}
+.banner2
+{
+	background-color: yellow;
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.banner2 img
+{
+	width: 100%; 
+	height: 100%;
+	overflow: visible;
+}
+.banner3
+{
+	background-color: brown;
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.banner3 img
+{
+	width: 100%; 
+	height: 100%;
+	overflow: visible;
+}
+.rodape
+{
+	background: #f1f1f1;
+	height: 350px;
+	width: 100%;
+}
+.rodape .quem_somos
+{
+	background: #f1f1f1;
+	height: 100%;
+	width: 25%;
+	float: left;
+}
+.rodape .baixe_agora
+{
+	background: #f1f1f1;
+	height: 100%;
+	width: 25%;
+	float: left;
+}
